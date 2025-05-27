@@ -10,7 +10,7 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 17 plugins to load
+[Info   :   BepInEx] 18 plugins to load
 [Info   :   BepInEx] Loading [LethalConfig 1.4.6]
 [Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/General/SectionsDefaultClosed"
 [Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/General/HideSearchBars"
@@ -54,10 +54,25 @@
 * |____/|_| |_|\___/  \_/\_/    |____/ \___/ \___/|____/___|_____|____/(_) *
 *                                                                          *
 ****************************************************************************
-[Info   :JellyBeanUtil] Mods directory: D:\miso\Subory her, programu\Lethal Company\BepInEx\plugins
+[Info   :JellyBeanUtil] BepInEx root directory: D:\miso\Subory her, programu\Lethal Company\BepInEx
 [Info   :JellyBeanUtil] Checking for modpack updates...
-[Info   :JellyBeanUtil] Updated: HidePlayerNames.dll
-[Info   :JellyBeanUtil] Skipping update for own DLL: jellybeanutil.dll
+[Info   :JellyBeanUtil] Cannot verify file hash for locked file: D:\miso\Subory her, programu\Lethal Company\BepInEx\LogOutput.log, skipping update check.
+[Info   :JellyBeanUtil] Updated: cache/chainloader_typeloader.dat
+[Info   :JellyBeanUtil] Cannot verify file hash for locked file: D:\miso\Subory her, programu\Lethal Company\BepInEx\cache\harmony_interop_cache.dat, skipping update check.
+[Info   :JellyBeanUtil] Updated: config/BepInEx.cfg
+[Info   :JellyBeanUtil] Updated: config/BetterEmotes.cfg
+[Info   :JellyBeanUtil] Updated: config/FlipMods.ReservedFlashlightSlot.cfg
+[Info   :JellyBeanUtil] Updated: config/FlipMods.ReservedItemSlotCore.cfg
+[Info   :JellyBeanUtil] Updated: config/FlipMods.ReservedWalkieSlot.cfg
+[Info   :JellyBeanUtil] Updated: config/FlipMods.TooManyEmotes.cfg
+[Info   :JellyBeanUtil] Updated: config/LethalFashion.cfg
+[Info   :JellyBeanUtil] Updated: config/RickArg.lethalcompany.helmetcameras.cfg
+[Info   :JellyBeanUtil] Updated: config/TooManySuits.cfg
+[Info   :JellyBeanUtil] Updated: config/ainavt.lc.lethalconfig.cfg
+[Info   :JellyBeanUtil] Updated: config/com.github.tinyhoot.ShipLoot.cfg
+[Info   :JellyBeanUtil] Updated: config/com.rune580.LethalCompanyInputUtils.cfg
+[Info   :JellyBeanUtil] Updated: config/me.swipez.melonloader.morecompany.cfg
+[Info   :JellyBeanUtil] Updated: config/x753.More_Suits.cfg
 [Info   :JellyBeanUtil] Modpack update check complete.
 [Info   :   BepInEx] Loading [ReservedItemSlotCore 2.0.49]
 [Info   :ReservedItemSlotCore-2.0.49] BindingConfigs
@@ -116,6 +131,7 @@
 [Info   :MoreCompany] Loaded cosmetic: builtin.watch from bundle: morecompany.cosmetics
 [Info   :MoreCompany] Loading USER COSMETICS...
 [Info   :MoreCompany] Loaded MoreCompany FULLY
+[Info   :   BepInEx] Loading [Hide Player Names 1.0.1]
 [Info   :   BepInEx] Loading [Helmet_Cameras 2.1.5]
 [Info   :Helmet_Cameras] Plugin Helmet_Cameras is loaded with version 2.1.5!
 [Info   :Helmet_Cameras] --------Helmet camera patch done.---------
@@ -128,3 +144,4 @@
 [Info   :ReservedFlashlightSlot-2.0.10] Initializing hotkeys.
 [Info   :ReservedWalkieSlot-2.0.7] Initializing hotkeys.
 [Info   : Unity Log] Saving changed settings
+[Info   : Unity Log] subcribing to steam callbacks
