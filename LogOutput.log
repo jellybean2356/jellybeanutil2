@@ -10,7 +10,7 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 15 plugins to load
+[Info   :   BepInEx] 17 plugins to load
 [Info   :   BepInEx] Loading [LethalConfig 1.4.6]
 [Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/General/SectionsDefaultClosed"
 [Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/General/HideSearchBars"
@@ -41,6 +41,9 @@
 [Info   :RuntimeNetcodeRPCValidator] Successfully registered first patch for type PlayerControllerB.Awake | Triggered by BetterEmotes
 [Info   :BetterEmotes] BetterEmotes loaded
 [Info   :   BepInEx] Loading [ShipLoot 1.1]
+[Info   :   BepInEx] Loading [JellyBeanHotfixer 1.0.0]
+[Info   :JellyBeanHotfixer] Hotfixer: Checking for JellyBeanUtil update...
+[Info   :JellyBeanHotfixer] Hotfixer: JellyBeanUtil.dll is up to date.
 [Info   :   BepInEx] Loading [JellyBeanUtil 1.0.0]
 [Info   :JellyBeanUtil] 
 ****************************************************************************
@@ -53,6 +56,7 @@
 ****************************************************************************
 [Info   :JellyBeanUtil] Mods directory: D:\miso\Subory her, programu\Lethal Company\BepInEx\plugins
 [Info   :JellyBeanUtil] Checking for modpack updates...
+[Info   :JellyBeanUtil] Updated: HidePlayerNames.dll
 [Info   :JellyBeanUtil] Skipping update for own DLL: jellybeanutil.dll
 [Info   :JellyBeanUtil] Modpack update check complete.
 [Info   :   BepInEx] Loading [ReservedItemSlotCore 2.0.49]
@@ -112,4 +116,15 @@
 [Info   :MoreCompany] Loaded cosmetic: builtin.watch from bundle: morecompany.cosmetics
 [Info   :MoreCompany] Loading USER COSMETICS...
 [Info   :MoreCompany] Loaded MoreCompany FULLY
+[Info   :   BepInEx] Loading [Helmet_Cameras 2.1.5]
+[Info   :Helmet_Cameras] Plugin Helmet_Cameras is loaded with version 2.1.5!
+[Info   :Helmet_Cameras] --------Helmet camera patch done.---------
 [Info   :   BepInEx] Loading [More Suits 1.5.0]
+[Info   :More Suits] Plugin More Suits is loaded!
+[Info   :   BepInEx] Loading [TooManySuits 2.0.1]
+[Info   :   BepInEx] Loading [Late Company 1.0.17]
+[Info   :Late Company] Late Company loaded!
+[Message:   BepInEx] Chainloader startup complete
+[Info   :ReservedFlashlightSlot-2.0.10] Initializing hotkeys.
+[Info   :ReservedWalkieSlot-2.0.7] Initializing hotkeys.
+[Info   : Unity Log] Saving changed settings
