@@ -1,0 +1,115 @@
+[Message:   BepInEx] BepInEx 5.4.21.0 - Lethal Company (27.01.2025 16:20:28)
+[Info   :   BepInEx] Running under Unity v2022.3.9.15351836
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.21.0]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 15 plugins to load
+[Info   :   BepInEx] Loading [LethalConfig 1.4.6]
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/General/SectionsDefaultClosed"
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/General/HideSearchBars"
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Int Slider"
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Float Slider"
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Float Step Slider"
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Bool Checkbox"
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Enum Dropdown"
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Text Input"
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Multiline Text Input"
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Text Input Dropdown"
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Hex Color Input"
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Int Input"
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Float Input"
+[Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig.ConfigItems.GenericButtonConfigItem"
+[Debug  :ainavt.lc.lethalconfig] Finished loading assets.
+[Info   :ainavt.lc.lethalconfig] LethalConfig loaded!
+[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.7.10]
+[Debug  :ainavt.lc.lethalconfig] Registered config "Lethal Company Input Utils/General/Locale"
+[Info   :Lethal Company Input Utils] Registered InputUtilsExtendedMouse Layout Override!
+[Info   :Lethal Company Input Utils] InputUtils 0.7.10 has finished loading!
+[Info   :   BepInEx] Loading [RuntimeNetcodeRPCValidator 0.2.5]
+[Info   :   BepInEx] Loading [BetterEmotes 1.5.4]
+[Info   :BetterEmotes] BetterEmotes loading...
+[Info   :RuntimeNetcodeRPCValidator] Patched 1 ServerRPC & 1 ClientRPC on NetworkBehaviour SignEmoteText.
+[Info   :RuntimeNetcodeRPCValidator] Patched 1 ServerRPC & 1 ClientRPC on NetworkBehaviour SyncAnimatorToOthers.
+[Info   :RuntimeNetcodeRPCValidator] Patched 2 ServerRPCs & 2 ClientRPCs on NetworkBehaviour SyncVRState.
+[Info   :RuntimeNetcodeRPCValidator] Successfully registered first patch for type PlayerControllerB.Awake | Triggered by BetterEmotes
+[Info   :BetterEmotes] BetterEmotes loaded
+[Info   :   BepInEx] Loading [ShipLoot 1.1]
+[Info   :   BepInEx] Loading [JellyBeanUtil 1.0.0]
+[Info   :JellyBeanUtil] 
+****************************************************************************
+*  ____  _   _  _____        __  ____   ___   ___  ____ ___ _____ ____  _  *
+* / ___|| | | |/ _ \ \      / / | __ ) / _ \ / _ \| __ )_ _| ____/ ___|| | *
+* \___ \| |_| | | | \ \ /\ / /  |  _ \| | | | | | |  _ \| ||  _| \___ \| | *
+*  ___) |  _  | |_| |\ V  V /   | |_) | |_| | |_| | |_) | || |___ ___) |_| *
+* |____/|_| |_|\___/  \_/\_/    |____/ \___/ \___/|____/___|_____|____/(_) *
+*                                                                          *
+****************************************************************************
+[Info   :JellyBeanUtil] Mods directory: D:\miso\Subory her, programu\Lethal Company\BepInEx\plugins
+[Info   :JellyBeanUtil] Checking for modpack updates...
+[Info   :JellyBeanUtil] Skipping update for own DLL: jellybeanutil.dll
+[Info   :JellyBeanUtil] Modpack update check complete.
+[Info   :   BepInEx] Loading [ReservedItemSlotCore 2.0.49]
+[Info   :ReservedItemSlotCore-2.0.49] BindingConfigs
+[Info   :ReservedItemSlotCore-2.0.49] ReservedItemSlotCore loaded
+[Info   :   BepInEx] Loading [ReservedFlashlightSlot 2.0.10]
+[Info   :ReservedFlashlightSlot-2.0.10] BindingConfigs
+[Info   :ReservedItemSlotCore-2.0.49] Created ReservedItemSlotData for: flashlight. Slot priority: 200
+[Info   :ReservedFlashlightSlot-2.0.10] ReservedFlashlightSlot loaded
+[Info   :   BepInEx] Loading [ReservedWalkieSlot 2.0.7]
+[Info   :ReservedWalkieSlot-2.0.7] BindingConfigs
+[Info   :ReservedItemSlotCore-2.0.49] Created ReservedItemSlotData for: walkie_talkie. Slot priority: 150
+[Info   :ReservedWalkieSlot-2.0.7] ReservedWalkieSlot loaded
+[Info   :   BepInEx] Loading [TooManyEmotes 2.3.3]
+[Info   :TooManyEmotes-2.3.3] BindingConfigs
+[Info   :TooManyEmotes-2.3.3] Initializing custom emote hotkeys.
+[Info   :TooManyEmotes-2.3.3] Successfully loaded 29 animation clips from asset bundle: Assets/emotes_complementary
+[Info   :TooManyEmotes-2.3.3] Successfully loaded 105 animation clips from asset bundle: Assets/emotes_0
+[Info   :TooManyEmotes-2.3.3] Successfully loaded 165 animation clips from asset bundle: Assets/emotes_1
+[Info   :TooManyEmotes-2.3.3] Successfully loaded 111 animation clips from asset bundle: Assets/emotes_2
+[Info   :TooManyEmotes-2.3.3] Successfully loaded 8 animation clips from asset bundle: Assets/emotes_3
+[Info   :TooManyEmotes-2.3.3] Successfully loaded 11 animation clips from asset bundle: Assets/emotes_special
+[Info   :TooManyEmotes-2.3.3] Successfully loaded radial menu asset.
+[Info   :TooManyEmotes-2.3.3] Loaded 27 emote props.
+[Info   :TooManyEmotes-2.3.3] Loading 142 dmca-free audio clips.
+[Info   :TooManyEmotes-2.3.3] Loading 211 dmca audio clips.
+[Info   :TooManyEmotes-2.3.3] TooManyEmotes finished loading!
+[Info   :   BepInEx] Loading [LethalFashion 1.0.6]
+[Info   :LethalFashion] Plugin LethalFashion is loaded!
+[Info   :LethalFashion] Patch applied successfully. You are now FASHIONABLE.
+[Info   :   BepInEx] Loading [MoreCompany 1.11.0]
+[Info   :MoreCompany] Loading MoreCompany...
+[Info   :MoreCompany] Loading SETTINGS...
+[Info   :MoreCompany] Checking: D:\miso\Subory her, programu\Lethal Company\BepInEx\plugins/MoreCompanyCosmetics
+[Info   :MoreCompany] Loading COSMETICS...
+[Info   :MoreCompany] Loading DEFAULT COSMETICS...
+[Info   :MoreCompany] Loaded cosmetic: builtin.3dglasses from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.bunnyears from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.denimhat from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.fancyglasses from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.partyglasses from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.gunholster from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.hardhat from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.jesterhat from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.kittyears from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.mimemask from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.fancypants from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.outoforder from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.partyhat from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.plaguemask from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.propellerhat from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.eyeballs from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.rudolph from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.santahat from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.slimething from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.tophat from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.watch from bundle: morecompany.cosmetics
+[Info   :MoreCompany] Loading USER COSMETICS...
+[Info   :MoreCompany] Loaded MoreCompany FULLY
+[Info   :   BepInEx] Loading [More Suits 1.5.0]
