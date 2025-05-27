@@ -5,12 +5,15 @@
 [Info   :   BepInEx] System platform: Bits64, Windows
 [Message:   BepInEx] Preloader started
 [Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.21.0]
-[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Loaded 1 patcher method from [FixPluginTypesSerialization 1.0.0.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :FixPluginTypesSerialization] Running under Unity v2022.3.9
+[Info   :FixPluginTypesSerialization] Found offsets for current version, using them.
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 18 plugins to load
+[Info   :   BepInEx] 22 plugins to load
 [Info   :   BepInEx] Loading [LethalConfig 1.4.6]
 [Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/General/SectionsDefaultClosed"
 [Debug  :ainavt.lc.lethalconfig] Registered config "LethalConfig/General/HideSearchBars"
@@ -61,6 +64,7 @@
 [Info   :JellyBeanUtil] Cannot verify file hash for locked file: D:\miso\Subory her, programu\Lethal Company\BepInEx\cache\harmony_interop_cache.dat, skipping update check.
 [Info   :JellyBeanUtil] Updated: config/BepInEx.cfg
 [Info   :JellyBeanUtil] Updated: config/BetterEmotes.cfg
+[Info   :JellyBeanUtil] Updated: config/FixPluginTypesSerialization.cfg
 [Info   :JellyBeanUtil] Updated: config/FlipMods.ReservedFlashlightSlot.cfg
 [Info   :JellyBeanUtil] Updated: config/FlipMods.ReservedItemSlotCore.cfg
 [Info   :JellyBeanUtil] Updated: config/FlipMods.ReservedWalkieSlot.cfg
@@ -74,6 +78,24 @@
 [Info   :JellyBeanUtil] Updated: config/me.swipez.melonloader.morecompany.cfg
 [Info   :JellyBeanUtil] Updated: config/x753.More_Suits.cfg
 [Info   :JellyBeanUtil] Modpack update check complete.
+[Info   :   BepInEx] Loading [MaxWasUnavailable.LethalModDataLib 1.2.2]
+[Debug  :MaxWasUnavailable.LethalModDataLib] Patching...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Patched!
+[Info   :MaxWasUnavailable.LethalModDataLib] Plugin MaxWasUnavailable.LethalModDataLib is loaded!
+[Info   :   BepInEx] Loading [LethalLevelLoader 1.4.11]
+[Info   :LethalLevelLoader] LethalLevelLoader loaded!!
+[Info   :LethalLevelLoader] LethalBundleManger: Starting!
+[Info   :LethalLevelLoader] LethalBundleManger: Now Loading Bundles!
+[Info   :LethalLevelLoader] No Files Found, Cancelling LoadAllBundlesRequest!
+[Info   :LethalLevelLoader] Config Level Set As: User
+[Info   :   BepInEx] Loading [LethalNetworkAPI 3.3.2]
+[Info   :LethalNetworkAPI] LethalNetworkAPI v3.3.2 has Loaded.
+[Info   :   BepInEx] Loading [LethalMoonUnlocks 2.2.3]
+[Info   :LethalMoonUnlocks] Hello world (:
+[Info   :LethalMoonUnlocks] Applying patches..
+[Info   :LethalMoonUnlocks] Patching complete.
+[Info   :LethalMoonUnlocks] Initializing..
+[Info   :LethalMoonUnlocks] LethalMoonUnlocks 2.2.3 initialized!
 [Info   :   BepInEx] Loading [ReservedItemSlotCore 2.0.49]
 [Info   :ReservedItemSlotCore-2.0.49] BindingConfigs
 [Info   :ReservedItemSlotCore-2.0.49] ReservedItemSlotCore loaded
@@ -145,3 +167,586 @@
 [Info   :ReservedWalkieSlot-2.0.7] Initializing hotkeys.
 [Info   : Unity Log] Saving changed settings
 [Info   : Unity Log] subcribing to steam callbacks
+[Info   :LethalLevelLoader] Custom Content Processed. Unlocking Main Menu.
+[Info   :LethalLevelLoader] Registering Bundle Content!
+[Info   :LethalLevelLoader] Skipped Registering 0 NetworkObjects As They Were Already Registered.
+[Info   :MaxWasUnavailable.LethalModDataLib] Registering ModDataAttribute fields...
+[Info   :MaxWasUnavailable.LethalModDataLib] Hooking up save, load and delete events...
+[Info   :MaxWasUnavailable.LethalModDataLib] ModDataHandler initialised!
+[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCGeneralSaveData.moddata with key MaxWasUnavailable.LethalModDataLib.LMDLVersion...
+[Info   :MaxWasUnavailable.LethalModDataLib] No saved LethalModDataLib version found. This is normal if this is the first time you are running the game with LethalModDataLib installed.
+[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCGeneralSaveData.moddata with key MaxWasUnavailable.LethalModDataLib.LMDLVersion...
+[Debug  :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
+[Info   :LethalMoonUnlocks] Checking for compatible mods..
+[Info   :LethalMoonUnlocks] Refreshing config..
+[Info   :LethalMoonUnlocks] Discount rates (% off): 50%, 75%, 100%
+[Info   :LethalMoonUnlocks] No custom moon group defined. Skip parsing..
+[Info   :LethalMoonUnlocks] Register Network messages..
+[Warning:  HarmonyX] AccessTools.GetTypesFromAssembly: assembly LethalMoonUnlocks, Version=2.2.3.0, Culture=neutral, PublicKeyToken=null => System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+Could not load type of field 'LethalMoonUnlocks.Compatibility.LethalConstellationsExtension+<>c:<>9__4_0' (1) due to: Could not load file or assembly 'LethalConstellations, Version=0.2.3.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+System.TypeLoadException: Could not load type of field 'LethalMoonUnlocks.Compatibility.LethalConstellationsExtension+<>c:<>9__4_0' (1) due to: Could not load file or assembly 'LethalConstellations, Version=0.2.3.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+[Warning:  HarmonyX] AccessTools.GetTypesFromAssembly: assembly LethalMoonUnlocks, Version=2.2.3.0, Culture=neutral, PublicKeyToken=null => System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+Could not load type of field 'LethalMoonUnlocks.Compatibility.LethalConstellationsExtension+<>c:<>9__4_0' (1) due to: Could not load file or assembly 'LethalConstellations, Version=0.2.3.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+System.TypeLoadException: Could not load type of field 'LethalMoonUnlocks.Compatibility.LethalConstellationsExtension+<>c:<>9__4_0' (1) due to: Could not load file or assembly 'LethalConstellations, Version=0.2.3.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+[Warning:  HarmonyX] AccessTools.GetTypesFromAssembly: assembly LethalMoonUnlocks, Version=2.2.3.0, Culture=neutral, PublicKeyToken=null => System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+Could not load type of field 'LethalMoonUnlocks.Compatibility.LethalConstellationsExtension+<>c:<>9__4_0' (1) due to: Could not load file or assembly 'LethalConstellations, Version=0.2.3.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+System.TypeLoadException: Could not load type of field 'LethalMoonUnlocks.Compatibility.LethalConstellationsExtension+<>c:<>9__4_0' (1) due to: Could not load file or assembly 'LethalConstellations, Version=0.2.3.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+[Warning:  HarmonyX] AccessTools.GetTypesFromAssembly: assembly LethalMoonUnlocks, Version=2.2.3.0, Culture=neutral, PublicKeyToken=null => System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+Could not load type of field 'LethalMoonUnlocks.Compatibility.LethalConstellationsExtension+<>c:<>9__4_0' (1) due to: Could not load file or assembly 'LethalConstellations, Version=0.2.3.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+System.TypeLoadException: Could not load type of field 'LethalMoonUnlocks.Compatibility.LethalConstellationsExtension+<>c:<>9__4_0' (1) due to: Could not load file or assembly 'LethalConstellations, Version=0.2.3.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+[Warning:  HarmonyX] AccessTools.GetTypesFromAssembly: assembly LethalMoonUnlocks, Version=2.2.3.0, Culture=neutral, PublicKeyToken=null => System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+Could not load type of field 'LethalMoonUnlocks.Compatibility.LethalConstellationsExtension+<>c:<>9__4_0' (1) due to: Could not load file or assembly 'LethalConstellations, Version=0.2.3.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+System.TypeLoadException: Could not load type of field 'LethalMoonUnlocks.Compatibility.LethalConstellationsExtension+<>c:<>9__4_0' (1) due to: Could not load file or assembly 'LethalConstellations, Version=0.2.3.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+[Info   :LethalMoonUnlocks] NetworkManager created.
+[Info   :MoreCompany] LANMenu startLAN Patched
+[Info   : Unity Log] Returning week num: 76
+[Info   : Unity Log] week num: 76
+[Debug  :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
+[Debug  :ainavt.lc.lethalconfig] 22 mods loaded: ainavt.lc.lethalconfig;com.rune580.LethalCompanyInputUtils;NicholaScott.BepInEx.RuntimeNetcodeRPCValidator;BetterEmotes;com.github.tinyhoot.ShipLoot;com.jellybean.jellybeanhotfixer;com.jellybean.jellybeanutil;MaxWasUnavailable.LethalModDataLib;imabatby.lethallevelloader;LethalNetworkAPI;com.xmods.lethalmoonunlocks;FlipMods.ReservedItemSlotCore;FlipMods.ReservedFlashlightSlot;FlipMods.ReservedWalkieSlot;FlipMods.TooManyEmotes;LethalFashion;me.swipez.melonloader.morecompany;Miodec.HidePlayerNames;RickArg.lethalcompany.helmetcameras;x753.More_Suits;TooManySuits;twig.latecompany
+[Debug  :ainavt.lc.lethalconfig] ainavt.lc.lethalconfig : LethalConfig : 1.4.6
+[Debug  :ainavt.lc.lethalconfig] com.rune580.LethalCompanyInputUtils : Lethal Company Input Utils : 0.7.10
+[Debug  :ainavt.lc.lethalconfig] NicholaScott.BepInEx.RuntimeNetcodeRPCValidator : RuntimeNetcodeRPCValidator : 0.2.5
+[Debug  :ainavt.lc.lethalconfig] BetterEmotes : BetterEmotes : 1.5.4
+[Debug  :ainavt.lc.lethalconfig] com.github.tinyhoot.ShipLoot : ShipLoot : 1.1
+[Debug  :ainavt.lc.lethalconfig] com.jellybean.jellybeanhotfixer : JellyBeanHotfixer : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] com.jellybean.jellybeanutil : JellyBeanUtil : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] MaxWasUnavailable.LethalModDataLib : MaxWasUnavailable.LethalModDataLib : 1.2.2
+[Debug  :ainavt.lc.lethalconfig] imabatby.lethallevelloader : LethalLevelLoader : 1.4.11
+[Debug  :ainavt.lc.lethalconfig] LethalNetworkAPI : LethalNetworkAPI : 3.3.2
+[Debug  :ainavt.lc.lethalconfig] com.xmods.lethalmoonunlocks : LethalMoonUnlocks : 2.2.3
+[Debug  :ainavt.lc.lethalconfig] FlipMods.ReservedItemSlotCore : ReservedItemSlotCore : 2.0.49
+[Debug  :ainavt.lc.lethalconfig] FlipMods.ReservedFlashlightSlot : ReservedFlashlightSlot : 2.0.10
+[Debug  :ainavt.lc.lethalconfig] FlipMods.ReservedWalkieSlot : ReservedWalkieSlot : 2.0.7
+[Debug  :ainavt.lc.lethalconfig] FlipMods.TooManyEmotes : TooManyEmotes : 2.3.3
+[Debug  :ainavt.lc.lethalconfig] LethalFashion : LethalFashion : 1.0.6
+[Debug  :ainavt.lc.lethalconfig] me.swipez.melonloader.morecompany : MoreCompany : 1.11.0
+[Debug  :ainavt.lc.lethalconfig] Miodec.HidePlayerNames : Hide Player Names : 1.0.1
+[Debug  :ainavt.lc.lethalconfig] RickArg.lethalcompany.helmetcameras : Helmet_Cameras : 2.1.5
+[Debug  :ainavt.lc.lethalconfig] x753.More_Suits : More Suits : 1.5.0
+[Debug  :ainavt.lc.lethalconfig] TooManySuits : TooManySuits : 2.0.1
+[Debug  :ainavt.lc.lethalconfig] twig.latecompany : Late Company : 1.0.17
+[Debug  :ainavt.lc.lethalconfig] Generated 12 mod entries.
+[Debug  :ainavt.lc.lethalconfig] Generated 270 configs, of which 254 were missing and registered.
+[Info   : Unity Log] host button pressed
+[Info   : Unity Log] Returning week num: 76
+[Info   : Unity Log] Displaying menu message
+[Info   : Unity Log] Connection approval callback! Game version of client request: 
+[Info   : Unity Log] Joining client id: 0; Local/host client id: 0
+[Info   : Unity Log] Stopped connection approval callback, as the client in question was the host!
+[Warning: Unity Log] [Netcode] You cannot decline the host connection. The connection was automatically approved.
+[Info   : Unity Log] started host!
+[Info   : Unity Log] are we in a server?: True
+[Info   : Unity Log] Lobby has been created
+[Warning: Unity Log] [Dissonance:Recording] (15:09:19.719) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0,1666657)
+[Info   :LethalLevelLoader] LethalLevelLoaderNetworkManager Spawned.
+[Info   :LethalLevelLoader] LethalLevelLoader Loaded The Following ExtendedLevels:
+1. 41 Experimentation (Vanilla)
+2. 220 Assurance (Vanilla)
+3. 56 Vow (Vanilla)
+4. 71 Gordion (Vanilla)
+5. 61 March (Vanilla)
+6. 20 Adamance (Vanilla)
+7. 85 Rend (Vanilla)
+8. 7 Dine (Vanilla)
+9. 21 Offense (Vanilla)
+10. 8 Titan (Vanilla)
+11. 68 Artifice (Vanilla)
+12. 44 Liquidation (Vanilla)
+13. 5 Embrion (Vanilla)
+
+[Info   :LethalLevelLoader] LethalLevelLoader Loaded The Following ExtendedDungeonFlows:
+1. Facility (Level1Flow) (Vanilla)
+2. Haunted Mansion (Level2Flow) (Vanilla)
+3. Facility (Level1FlowExtraLarge) (Vanilla)
+4. Facility (Level1Flow3Exits) (Vanilla)
+5. Mineshaft (Level3Flow) (Vanilla)
+
+[Info   :LethalMoonUnlocks] Initializing LMUnlockables from Extended levels..
+[Debug  :LethalMoonUnlocks] Skipping level: Gordion..
+[Debug  :LethalMoonUnlocks] Skipping level: Liquidation..
+[Debug  :LethalMoonUnlocks] | LMUnlockable state table
+[Debug  :LethalMoonUnlocks] | Name                 |  Price |  Bought |  Visits |  Catalog |  Discovered |  Sale |  Orig. Price |  Orig. State |  Story Lock |
+[Debug  :LethalMoonUnlocks] | -------------------- | ------ | ------- | ------- | -------- | ----------- | ----- | ------------ | ------------ | ----------- |
+[Debug  :LethalMoonUnlocks] | Experimentation      |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | Assurance            |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | Vow                  |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | March                |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | -------------------- | ------ | ------- | ------- | -------- | ----------- | ----- | ------------ | ------------ | ----------- |
+[Debug  :LethalMoonUnlocks] | Adamance             |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | Offense              |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | Embrion              |      0 |       0 |       0 |   Hidden |       Never |     - |          150 |       Hidden |           - |
+[Debug  :LethalMoonUnlocks] | Rend                 |      0 |       0 |       0 |        ✓ |       Never |     - |          550 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | -------------------- | ------ | ------- | ------- | -------- | ----------- | ----- | ------------ | ------------ | ----------- |
+[Debug  :LethalMoonUnlocks] | Dine                 |      0 |       0 |       0 |        ✓ |       Never |     - |          600 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | Titan                |      0 |       0 |       0 |        ✓ |       Never |     - |          700 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | Artifice             |      0 |       0 |       0 |   Hidden |       Never |     - |         1500 |       Hidden |           - |
+[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCSaveFile1.moddata with key LethalLevelLoader.LLLSaveFile.parityStepsTaken...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCSaveFile1.moddata with key LethalLevelLoader.LLLSaveFile.itemSaveData...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCSaveFile1.moddata with key LethalLevelLoader.LLLSaveFile.extendedLevelSaveData...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCSaveFile1.moddata with key LethalLevelLoader.LLLSaveFile.CurrentLevelName...
+[Info   :LethalLevelLoader] Initialized LLL Save File, Current Level Was: , Current Vanilla Save Is: LCSaveFile1
+[Info   :LethalLevelLoader] LethalLevelLoader Has Finished Initializing.
+[Info   : Unity Log] Weather chance: 0,7886578; 1
+[Info   :LethalLevelLoader] NetworkBundleManager Initializing.
+[Info   :LethalLevelLoader] Refeshing Loaded Bundles Status!
+[Info   :LethalLevelLoader] Sending LoadedStatus: True To Server!
+[Info   :LethalLevelLoader] LoadedStatus Is Currently: (1 / 1)
+[Info   :TooManyEmotes-2.3.3] Loading AudioManager preferences.
+[Info   : Unity Log] Enabling connection callbacks in StartOfRound
+[Info   : Unity Log] Began listening to SceneManager_OnLoadComplete1 on this client
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :TooManyEmotes-2.3.3] Initializing emote menu
+[Info   :TooManyEmotes-2.3.3] Loading AudioManager preferences.
+[Info   :TooManyEmotes-2.3.3] Loading ThirdPersonEmoteController preferences.
+[Info   :TooManyEmotes-2.3.3] Initializing animation renderer
+[Info   :MoreCompany] Resizing arrays from 4 to 32 with difference of 28
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (4)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (5)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (6)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (7)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (8)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (9)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (10)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (11)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (12)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (13)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (14)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (15)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (16)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (17)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (18)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (19)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (20)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (21)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (22)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (23)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (24)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (25)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (26)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (27)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (28)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (29)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (30)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] Called teleport function on Player (31)
+[Warning: Unity Log] damageTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Info   : Unity Log] 1107298560
+[Info   : Unity Log] 1107298560
+[Info   : Unity Log] level id: 3
+[Info   : Unity Log] Changing level
+[Info   :LethalLevelLoader] Refeshing Loaded Bundles Status!
+[Info   :LethalLevelLoader] Sending LoadedStatus: True To Server!
+[Info   :LethalLevelLoader] LoadedStatus Is Currently: (1 / 1)
+[Info   :LethalLevelLoader] Saving Current SelectableLevel: 71 Gordion
+[Info   : Unity Log] Loading from data: for 41 Experimentation: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 220 Assurance: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 56 Vow: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 71 Gordion: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 61 March: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 20 Adamance: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 85 Rend: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 7 Dine: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 21 Offense: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 8 Titan: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 68 Artifice: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 44 Liquidation: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 5 Embrion: iterations at 0, starting at node #-1
+[Info   : Unity Log] Weather chance: 0,1209648; 1
+[Info   : Unity Log] Item sales percentages #0: 0
+[Info   : Unity Log] Item sales percentages #1: 0
+[Info   : Unity Log] Item sales percentages #2: 0
+[Info   : Unity Log] Item sales percentages #3: 0
+[Info   : Unity Log] Item sales percentages #4: 0
+[Info   : Unity Log] Item sales percentages #5: 0
+[Info   : Unity Log] Item sales percentages #6: 0
+[Info   : Unity Log] Item sales percentages #7: 0
+[Info   : Unity Log] Item sales percentages #8: 0
+[Info   : Unity Log] Item sales percentages #9: 0
+[Info   : Unity Log] Item sales percentages #10: 0
+[Info   : Unity Log] Item sales percentages #11: 0
+[Info   : Unity Log] Item sales percentages #12: 0
+[Info   : Unity Log] Item sales percentages #13: 0
+[Info   : Unity Log] Item sales percentages #14: 0
+[Info   : Unity Log] Item sales percentages #15: 0
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   : Unity Log] Ship grabbable items list loaded. Count: 7
+[Info   : Unity Log] Loaded vehicle ID: -1
+[Info   :TooManyEmotes-2.3.3] Rotating emote selection in store. Seed: 172431797
+[Info   :LethalFashion] SpawnUnlockable method found successfully.
+[Info   :LethalFashion] Unlocking suit: ID=1, Name=Green suit
+[Info   :LethalFashion] Unlocking suit: ID=2, Name=Hazard suit
+[Info   :LethalFashion] Unlocking suit: ID=3, Name=Pajama suit
+[Info   :LethalFashion] Unlocking suit: ID=24, Name=Purple Suit
+[Info   :LethalFashion] Unlocking suit: ID=25, Name=Bee Suit
+[Info   :LethalFashion] Unlocking suit: ID=26, Name=Bunny Suit
+[Info   :LethalFashion] Finished unlocking and spawning suits.
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (1)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (3)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (2)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player
+[Info   : Unity Log] Group credits: 429
+[Info   :LethalMoonUnlocks] Terminal is booting up!
+[Info   :LethalMoonUnlocks] Refreshing config..
+[Info   :LethalMoonUnlocks] Discount rates (% off): 50%, 75%, 100%
+[Info   :LethalMoonUnlocks] Loading save data..
+[Info   :LethalMoonUnlocks] No save data found! New save..
+[Info   :LethalMoonUnlocks] New game initialization..
+[Debug  :LethalMoonUnlocks] Iterating states..
+[Debug  :LethalMoonUnlocks] Experimentation: Calculating price.. Original price -> 0
+[Debug  :LethalMoonUnlocks] Assurance: Calculating price.. Original price -> 0
+[Debug  :LethalMoonUnlocks] Vow: Calculating price.. Original price -> 0
+[Debug  :LethalMoonUnlocks] March: Calculating price.. Original price -> 0
+[Debug  :LethalMoonUnlocks] Adamance: Calculating price.. Original price -> 0
+[Debug  :LethalMoonUnlocks] Offense: Calculating price.. Original price -> 0
+[Debug  :LethalMoonUnlocks] Embrion: Calculating price.. Original price -> 150
+[Debug  :LethalMoonUnlocks] Rend: Calculating price.. Original price -> 550
+[Debug  :LethalMoonUnlocks] Dine: Calculating price.. Original price -> 600
+[Debug  :LethalMoonUnlocks] Titan: Calculating price.. Original price -> 700
+[Debug  :LethalMoonUnlocks] Artifice: Calculating price.. Original price -> 1500
+[Info   :LethalMoonUnlocks] Syncing unlockables to all clients..
+[Info   :LethalMoonUnlocks] | LMUnlockable state table
+[Info   :LethalMoonUnlocks] | Name                 |  Price |  Bought |  Visits |  Catalog |  Discovered |  Sale |  Orig. Price |  Orig. State |  Story Lock |
+[Info   :LethalMoonUnlocks] | -------------------- | ------ | ------- | ------- | -------- | ----------- | ----- | ------------ | ------------ | ----------- |
+[Info   :LethalMoonUnlocks] | Experimentation      |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Info   :LethalMoonUnlocks] | Assurance            |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Info   :LethalMoonUnlocks] | Vow                  |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Info   :LethalMoonUnlocks] | March                |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Info   :LethalMoonUnlocks] | -------------------- | ------ | ------- | ------- | -------- | ----------- | ----- | ------------ | ------------ | ----------- |
+[Info   :LethalMoonUnlocks] | Adamance             |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Info   :LethalMoonUnlocks] | Offense              |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Info   :LethalMoonUnlocks] | Embrion              |    150 |       0 |       0 |   Hidden |       Never |     - |          150 |       Hidden |           - |
+[Info   :LethalMoonUnlocks] | Rend                 |    550 |       0 |       0 |        ✓ |       Never |     - |          550 |            ✓ |           - |
+[Info   :LethalMoonUnlocks] | -------------------- | ------ | ------- | ------- | -------- | ----------- | ----- | ------------ | ------------ | ----------- |
+[Info   :LethalMoonUnlocks] | Dine                 |    600 |       0 |       0 |        ✓ |       Never |     - |          600 |            ✓ |           - |
+[Info   :LethalMoonUnlocks] | Titan                |    700 |       0 |       0 |        ✓ |       Never |     - |          700 |            ✓ |           - |
+[Info   :LethalMoonUnlocks] | Artifice             |   1500 |       0 |       0 |   Hidden |       Never |     - |         1500 |       Hidden |           - |
+[Debug  :ainavt.lc.lethalconfig] Injecting mod config menu into quick menu...
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   :MoreCompany] Setting initial volume for 0 to 16
+[Info   :MoreCompany] Setting initial volume for 1 to 16
+[Info   :MoreCompany] Setting initial volume for 2 to 16
+[Info   :MoreCompany] Setting initial volume for 3 to 16
+[Info   : Unity Log] planet mold states length: $13
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (4)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (5)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (6)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (7)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (8)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (9)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (10)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (11)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (12)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (13)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (14)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (15)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (16)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (17)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (18)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (19)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (20)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (21)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (22)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (23)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (24)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (25)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (26)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (27)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (28)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (29)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (30)
+[Info   :ReservedItemSlotCore-2.0.49] Initializing ReservedPlayerData for player: Player (31)
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/LightSwitchContainer/PlacementCollider"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ControlDesk.001"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (7)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/StorageCloset/Cube.000/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (8)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
+[Info   : Unity Log] [HELMET_CAMERAS] Starting coroutine...
+[Info   : Unity Log] [HELMET_CAMERAS] 5 seconds for init mode... Please wait...
+[Info   : Unity Log] Called teleport function on Player
+[Info   : Unity Log] Taking control of player Player and enabling camera!
+[Info   : Unity Log] Called teleport function on Player (1)
+[Info   : Unity Log] Called teleport function on Player (2)
+[Info   : Unity Log] Called teleport function on Player (3)
+[Info   : Unity Log] Called teleport function on Player (4)
+[Info   : Unity Log] Called teleport function on Player (5)
+[Info   : Unity Log] Called teleport function on Player (6)
+[Info   : Unity Log] Called teleport function on Player (7)
+[Info   : Unity Log] Called teleport function on Player (8)
+[Info   : Unity Log] Called teleport function on Player (9)
+[Info   : Unity Log] Called teleport function on Player (10)
+[Info   : Unity Log] Called teleport function on Player (11)
+[Info   : Unity Log] Called teleport function on Player (12)
+[Info   : Unity Log] Called teleport function on Player (13)
+[Info   : Unity Log] Called teleport function on Player (14)
+[Info   : Unity Log] Called teleport function on Player (15)
+[Info   : Unity Log] Called teleport function on Player (16)
+[Info   : Unity Log] Called teleport function on Player (17)
+[Info   : Unity Log] Called teleport function on Player (18)
+[Info   : Unity Log] Called teleport function on Player (19)
+[Info   : Unity Log] Called teleport function on Player (20)
+[Info   : Unity Log] Called teleport function on Player (21)
+[Info   : Unity Log] Called teleport function on Player (22)
+[Info   : Unity Log] Called teleport function on Player (23)
+[Info   : Unity Log] Called teleport function on Player (24)
+[Info   : Unity Log] Called teleport function on Player (25)
+[Info   : Unity Log] Called teleport function on Player (26)
+[Info   : Unity Log] Called teleport function on Player (27)
+[Info   : Unity Log] Called teleport function on Player (28)
+[Info   : Unity Log] Called teleport function on Player (29)
+[Info   : Unity Log] Called teleport function on Player (30)
+[Info   : Unity Log] Called teleport function on Player (31)
+[Info   : Unity Log] Starting voice tracking for player: jellybean
+[Info   :ReservedItemSlotCore-2.0.49] Unlocking reserved item slot: flashlight
+[Info   :ReservedItemSlotCore-2.0.49] Unlocking reserved item slot: walkie_talkie
+[Info   :TooManyEmotes-2.3.3] Loading ThirdPersonEmoteController preferences.
+[Info   :TooManyEmotes-2.3.3] Initializing local player.
+[Info   :MoreCompany] Server received 2 cosmetics from 0 | Request All: True
+[Info   :MoreCompany] Sending 2 cosmetics to the server | Request All: True
+[Info   : Unity Log] !!!! ENABLING CAMERA FOR PLAYER: Player
+[Info   : Unity Log] !!!! connectedPlayersAmount: 0
+[Info   :TooManyEmotes-2.3.3] Rotating emote selection in store. Seed: 172431797
+[Info   : Unity Log] Has beta?: {hasBeta}
+[Info   : Unity Log] Has beta save data: True
+[Info   :ReservedItemSlotCore-2.0.49] Unlocking reserved item slot: flashlight
+[Info   :ReservedItemSlotCore-2.0.49] Unlocking reserved item slot: walkie_talkie
+[Warning: Unity Log] [Dissonance:Recording] (15:09:31.081) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:6,08326)
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncVRState to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin BetterEmotes
+[Info   : Unity Log] [HELMET_CAMERAS] Ship camera founded...
+[Info   : Unity Log] [HELMET_CAMERAS] Monitors were changed...
+[Info   : Unity Log] [HELMET_CAMERAS] Turning off vanilla internal ship camera
+[Info   : Unity Log] Triggering animated object trigger bool: setting to True
+[Info   : Unity Log] Triggering animated object trigger bool: setting to False
+[Warning: Unity Log] [Dissonance:Recording] (15:10:04.987) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0,2333299)
+[Warning: Unity Log] [Dissonance:Recording] (15:10:13.636) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0,1500126)
+[Warning: Unity Log] [Dissonance:Recording] (15:10:14.824) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0,150038)
+[Warning: Unity Log] [Dissonance:Recording] (15:10:15.700) BasePreprocessingPipeline: Lost 960 samples in the preprocessor (buffer full), injecting silence to compensate
+[Warning: Unity Log] [Dissonance:Recording] (15:10:15.984) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
+[Warning: Unity Log] [Dissonance:Recording] (15:10:16.525) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
+[Warning: Unity Log] [Dissonance:Recording] (15:10:17.634) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
+[Info   : Unity Log] Set interminalmenu to true: True
+[Error  : Unity Log] Trying to add Caret (TMPro.TMP_SelectionCaret) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+[Info   :TooManyEmotes-2.3.3] Attempting to perform emote on local player.
+[Info   : Unity Log] isDemo:False ; False
+[Info   : Unity Log] isDemo:False ; False
+[Info   : Unity Log] isDemo:False ; False
+[Info   : Unity Log] isDemo:False ; False
+[Info   : Unity Log] isDemo:False ; False
+[Info   : Unity Log] isDemo:False ; True
+[Info   : Unity Log] isDemo:False ; False
+[Info   : Unity Log] isDemo:False ; True
+[Info   : Unity Log] isDemo:False ; True
+[Info   : Unity Log] Stop special animation on TerminalScript, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Calling stop animation function StopUsing server rpc for player: 0
+[Info   : Unity Log] Stop special animation F
+[Info   : Unity Log] Stop special animation G
+[Info   : Unity Log] Quit terminal; inTerminalMenu true?: {playerScript.inTerminalMenu}
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Info   : Unity Log] Leaving current lobby
+[Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
+[Info   : Unity Log] saved vehicle: -1
+[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCSaveFile1.moddata with key LethalLevelLoader.LLLSaveFile.parityStepsTaken...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCSaveFile1.moddata with key LethalLevelLoader.LLLSaveFile.itemSaveData...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCSaveFile1.moddata with key LethalLevelLoader.LLLSaveFile.extendedLevelSaveData...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCSaveFile1.moddata with key LethalLevelLoader.LLLSaveFile.CurrentLevelName...
+[Info   :LethalMoonUnlocks] Host is saving game..
+[Info   :LethalMoonUnlocks] Saving data..
+[Info   :LethalMoonUnlocks] Saving LMU_Unlockables..
+[Debug  :LethalMoonUnlocks] | LMUnlockable state table
+[Debug  :LethalMoonUnlocks] | Name                 |  Price |  Bought |  Visits |  Catalog |  Discovered |  Sale |  Orig. Price |  Orig. State |  Story Lock |
+[Debug  :LethalMoonUnlocks] | -------------------- | ------ | ------- | ------- | -------- | ----------- | ----- | ------------ | ------------ | ----------- |
+[Debug  :LethalMoonUnlocks] | Experimentation      |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | Assurance            |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | Vow                  |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | March                |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | -------------------- | ------ | ------- | ------- | -------- | ----------- | ----- | ------------ | ------------ | ----------- |
+[Debug  :LethalMoonUnlocks] | Adamance             |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | Offense              |      0 |       0 |       0 |        ✓ |       Never |     - |            0 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | Embrion              |    150 |       0 |       0 |   Hidden |       Never |     - |          150 |       Hidden |           - |
+[Debug  :LethalMoonUnlocks] | Rend                 |    550 |       0 |       0 |        ✓ |       Never |     - |          550 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | -------------------- | ------ | ------- | ------- | -------- | ----------- | ----- | ------------ | ------------ | ----------- |
+[Debug  :LethalMoonUnlocks] | Dine                 |    600 |       0 |       0 |        ✓ |       Never |     - |          600 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | Titan                |    700 |       0 |       0 |        ✓ |       Never |     - |          700 |            ✓ |           - |
+[Debug  :LethalMoonUnlocks] | Artifice             |   1500 |       0 |       0 |   Hidden |       Never |     - |         1500 |       Hidden |           - |
+[Info   :LethalMoonUnlocks] BAND-AID: Saving group credits (429)..
+[Info   : Unity Log] Shutting down and disconnecting from server. Is host?: True
+[Info   :LethalMoonUnlocks] Disconnecting from lobby. Restoring original prices and clearing variables..
+[Warning: Unity Log] [Dissonance:Recording] (15:11:34.673) BasicMicrophoneCapture: Insufficient buffer space, requested 28320, clamped to 16383 (dropping 11937 samples)
+[Warning: Unity Log] [Dissonance:Recording] (15:11:34.674) BasePreprocessingPipeline: Lost 960 samples in the preprocessor (buffer full), injecting silence to compensate
+[Warning: Unity Log] [Dissonance:Recording] (15:11:34.675) BasePreprocessingPipeline: Lost 960 samples in the preprocessor (buffer full), injecting silence to compensate
+[Info   : Unity Log] Resetting unlockables list!
+[Info   : Unity Log] Scene manager is null
+[Info   : Unity Log] Terminal disabled, disabling ESC key listener
+[Info   : Unity Log] DISABLING connection callbacks in round manager
+[Info   :MoreCompany] LANMenu startLAN Patched
+[Info   : Unity Log] Returning week num: 76
+[Info   : Unity Log] week num: 76
+[Debug  :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
+[Info   :LethalMoonUnlocks] Disconnecting from lobby. Restoring original prices and clearing variables..
+[Info   : Unity Log] unsubscribing from steam callbacks
+[Info   :FixPluginTypesSerialization] Restored original AssemblyNames list
